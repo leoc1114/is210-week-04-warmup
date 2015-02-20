@@ -10,9 +10,11 @@ A = len(MYINPUT)
 
 if A > MAX_LENGTH:
 
-    print LONGSTR.replace('short', 'long')
+    LONGSTR = 'Long'
+
 else:
     print LONGSTR
 
 OUTPUT = 'That certainly was a {} story!'.format(LONGSTR)
+
 print OUTPUT
