@@ -10,7 +10,7 @@ A = len(MYINPUT)
 
 if A > MAX_LENGTH:
 
-    LONGSTR = 'Long'
+    LONGSTR = 'long'
 
 else:
     print LONGSTR
